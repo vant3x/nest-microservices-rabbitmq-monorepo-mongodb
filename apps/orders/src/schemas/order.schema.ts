@@ -19,4 +19,4 @@ export class Order extends AbstractDocument {
     quantity: number;
 }
 
-export const orderSchema = SchemaFactory.createForClass(Order);
+export const OrderSchema = SchemaFactory.createForClass(Order);
